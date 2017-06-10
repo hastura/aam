@@ -1,0 +1,383 @@
+!!!
+%html{:lang => "en"}
+	%head
+		%meta{:charset => "utf-8"}/
+		%meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+		%meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+		%title agent-advertising-awards
+		%link{:href => "assets/css/styles.css", :rel => "stylesheet", :type => "text/css"}/
+		%link{:href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", :rel => "stylesheet"}/
+		%script{:crossorigin => "anonymous", :integrity => "sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa", :src => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"}
+		%script{:src => "http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js", :type => "text/javascript"}
+		%script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js", :type => "text/javascript"}
+		
+
+	%body
+		%nav{:class => ['navbar', 'navbar-default', 'navbar-aam']}
+			.container
+				.navbar-header
+					%button{:class => ['collapsed','navbar-toggle'],"aria-expanded" => "false", "data-target" => "#bs-example-navbar-collapse-5", "data-toggle" => "collapse", :type => "button"}
+						%span.sr-only Toggle navigation
+						%span.icon-bar
+						%span.icon-bar
+						%span.icon-bar
+					%a.navbar-brand{:href => "#"}
+						%img{:src => "https://d3p0bla3numw14.cloudfront.net/projects/agent-award-my%20/aaa-logo.jpg", :alt => ""}/
+
+				#bs-example-navbar-collapse-5{:class => ['collapse','navbar-collapse']}
+					%p{:class => ['navbar-text', 'navbar-right','navbar-aam-wrapper'],}
+						%a{:class => ['navbar-link', 'navbar-aam-text'],:href => "#"} Home 
+						%a{:class => ['navbar-link', 'navbar-aam-text'],:href => "#"} Enter The Awards
+						%a{:class => ['navbar-link', 'navbar-aam-text'],:href => "#"} Winner
+						%a{:class => ['navbar-link', 'navbar-aam-text'],:href => "#"} Highly Acclaimed
+						%a{:class => ['navbar-link', 'navbar-aam-text'],:href => "#"} About
+						%a{:class => ['navbar-link', 'navbar-aam-text'],:href => "#"} Media
+						%a{:class => ['navbar-link', 'navbar-aam-text'],:href => "../../projects/agent-award-my/vote-form.html"} Vote
+		
+		.info-modal-detail
+			#infoOne.modal.fade{:role => "dialog"}
+				.modal-dialog.modal-lg
+					.modal-content
+						.modal-header
+							%button.close{"data-dismiss" => "modal", :type => "button"}
+								%img{:src => "https://d3p0bla3numw14.cloudfront.net/projects/agent-award-my%20/cross.svg", :alt => ""}/
+							
+						.modal-body
+							.row
+
+								.col-md-12.header-info
+									%p Finalist. Breakthrough Agent / Negotiator of the year - Residential
+									%h2 Teammy Lee, Team Leader of GS Realty
+							.row
+
+								.col-md-4
+									%img{:class => ['img', 'img-responsive', 'img-modal'], :src => "https://d3p0bla3numw14.cloudfront.net/projects/agent-award-my%20/img%20dummy/Layer-1.jpg", :alt => ""}/
+								.col-md-8.image-and-text
+									%h5 Self Motivated and Success Driven Negotiator
+									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							.row.video-area-modal
+								.col-md-12.embed-responsive.embed-responsive-16by9
+									%iframe{:allowfullscreen => "", :frameborder => "0", :height => "315", :src => "https://www.youtube.com/embed/bvyKd0Bs_f4", :width => "560"}
+
+									-# %video.embed-responsive-item.responsive-video{:controls => "", :loop => "", :style => "max-width:100%", :video => ""}
+									-# 	%source{:src => "https://www.youtube.com/watch?v=k8bnjz860zY", :type => "video/mp4"}
+						-# .modal-footer
+						-# 	%button.btn.btn-default{"data-dismiss" => "modal", :type => "button"} Close
+			#infoTwo.modal.fade{:role => "dialog"}
+				.modal-dialog.modal-lg
+					.modal-content
+						.modal-header
+							%button.close{"data-dismiss" => "modal", :type => "button"}
+								%img{:src => "https://d3p0bla3numw14.cloudfront.net/projects/agent-award-my%20/cross.svg", :alt => ""}/
+							
+						.modal-body
+							.row
+
+								.col-md-12.header-info
+									%p Finalist. Breakthrough Agent / Negotiator of the year - Residential
+									%h2 Teammy Lee, Team Leader of GS Realty
+							.row
+
+								.col-md-4
+									%img{:class => ['img', 'img-responsive', 'img-modal'], :src => "https://d3p0bla3numw14.cloudfront.net/projects/agent-award-my%20/img%20dummy/Layer-1.jpg", :alt => ""}/
+								.col-md-8.image-and-text
+									%h5 Self Motivated and Success Driven Negotiator
+									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							.row.video-area-modal
+								.col-md-12.embed-responsive.embed-responsive-16by9
+									%iframe{:allowfullscreen => "", :frameborder => "0", :height => "315", :src => "https://www.youtube.com/embed/bvyKd0Bs_f4", :width => "560"}
+
+									-# %video.embed-responsive-item.responsive-video{:controls => "", :loop => "", :style => "max-width:100%", :video => ""}
+									-# 	%source{:src => "https://www.youtube.com/watch?v=k8bnjz860zY", :type => "video/mp4"}
+						-# .modal-footer
+						-# 	%button.btn.btn-default{"data-dismiss" => "modal", :type => "button"} Close
+
+
+
+		.nominee
+			.container-fluid
+				.row
+					.container
+						.row
+							.col-md-12
+								%h2 Breakthrough Agent / Negotioator Of The Year - Residential
+						.row
+							.col-md-12
+								%p Select 3 finalists
+						.row
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#infoOne"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#exampleModal", "data-whatever" => "@mdo"} Vote
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#infoTwo"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#exampleModal", "data-whatever" => "@mdo"} Vote
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+					.container
+						.row
+							.col-md-12
+								%h2 Breakthrough Agent / Negotioator Of The Year - Commercial
+						.row
+							.col-md-12
+								%p Select 3 finalists
+						.row
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+					.container
+						.row
+							.col-md-12
+								%h2 Star Agent / Negotiator -Area (RESIDENTIAL)
+						.row
+							.col-md-12
+								%p Select 3 finalists
+						.row
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+						.row
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+					.container
+						.row
+							.col-md-12
+								%h2 Star Agent / Negotiator -Area (COMMERCIAL)
+						.row
+							.col-md-12
+								%p Select 3 finalists
+						.row
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+					.container
+						.row
+							.col-md-12
+								%h2 Agency Of The Year
+						.row
+							.col-md-12
+								%p Select 3 finalists
+						.row
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+							.col-sm-12.col-md-3
+								%img{:src => " http://placehold.it/200x150", :alt => ""}/
+								%h5 Teammy Lee
+								%p Team Lead of GS Realty
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn', 'btn-action', 'btn-half', 'btn-selection'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#"} Info
+								.col-xs-6.col-sm-6.btn-selection-wrapper
+									%button{:class => ['btn','btn-action','btn-half','btn-selection','btn-vote'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#", "data-whatever" => "@mdo"} Vote
+
+		.form-wrapper.selection
+			.container-fluid{:class => ['selection-form']}
+				.row
+					.container
+						%p.text-center.center-block.selection-submit By clicking submit, i agree to the contest Terms nd Conditions. Once you submit this form, you are unableto chance your vote.
+				.row
+					.container
+						%form{:class => ['text-center', 'center-block', 'form-horizontal'], :autocomplete => "off", "data-parsley-ui-enabled" => "false", "data-parsley-validate" => "false", :method => "post"}
+            
+							.form-group            
+								.row.form-space
+									.col-md-4.white-space.hidden-xs
+									.col-md-4
+										-# %img{:src => "http://origin-images.rumah123.com.s3.amazonaws.com/assets/recaptcha-demo.gif", :class => "recaptcha-demo" }
+									.col-md-4
+									%button{:class => ['btn','btn-action','btn-half','btn-aam'], :type => "button", "data-toggle" => "modal", "data-dismiss" => "modal", "data-target" => "#exampleModal", "data-whatever" => "@mdo"} 
+										%a{:href => "https://pages.git.realestate.com.au/ronnie-hastura/agent-advertising-award/vote-form-success"}
+											Submit your votes
+			.container-fluid
+				.row
+					.col-md-12
+						%button{:id => "to-top-btn", :class => ['pull-right', 'btn', 'btn-action']}
+							#btn-arrow
+								%img{:src => "https://d3p0bla3numw14.cloudfront.net/projects/agent-award-my%20/arrow-up-small.svg", :alt => ""}/
+
+
+
+
+		%footer
+			.container-fluid#footer-aam
+				.row
+					.container
+						.col-md-6.footer-aam-text
+							%p Copyright © 2017 iProperty.com.my. All Rights Reserved
+							%p A member  of the iProperty Group Pty Ltd. Part of REA Group.
+							%p Terms and Conditions
+						.col-md-6.footer-aam-soc-med
+							%ul
+								%li
+									%img{:src => "https://d3p0bla3numw14.cloudfront.net/projects/agent-award-my%20/aam-facebook.svg", :alt => "facebook"}/
+								%li
+									%img{:src => "https://d3p0bla3numw14.cloudfront.net/projects/agent-award-my%20/aam-twitter.svg", :alt => "twitter"}/
+								%li
+									%img{:src => "https://d3p0bla3numw14.cloudfront.net/projects/agent-award-my%20/aam-google%20plus.svg", :alt => "googlePlus"}/
+								%li
+									%img{:src => "https://d3p0bla3numw14.cloudfront.net/projects/agent-award-my%20/aam-instagram.svg", :alt => "instagram"}/
+								%li
+									%img{:src => "https://d3p0bla3numw14.cloudfront.net/projects/agent-award-my%20/aam-linkedin.svg", :alt => "linkedin"}/
+
+
+		%script{:src => "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"}
+		:javascript
+			$('#to-top-btn').on("click",function(){
+				$('html,body').animate({ scrollTop: 0 }, 'slow', function () {
+				});
+			});
+
+		:javascript
+			$('.btn-vote').click(function(){
+					if( $(this).hasClass('active') )
+						$(this).text('Vote');
+					else
+						$(this).text('Voted');
+	        
+				$(this).toggleClass('active');
+			});
